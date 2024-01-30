@@ -1,0 +1,19 @@
+{
+    "index_patterns": ["fluentbit-*"],
+    "template": {
+        "mappings": {
+            "properties": {
+                "timestamp": {
+                    "type": "date"
+                },
+                "log": {
+                    "type": "text"
+                }
+            }
+        },
+        "settings": {
+            "number_of_shards": 1
+        }
+    },
+    "data_stream": {}
+}

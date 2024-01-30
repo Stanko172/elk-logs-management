@@ -132,7 +132,7 @@ return [
             'driver' => 'custom',
             'via'    =>LogstashLogger::class,
             'host'   => env('LOGSTASH_HOST', 'localhost'),
-            'port'   => env('LOGSTASH_PORT', 5000),
+            'port'   => env('LOGSTASH_PORT', 24224),
         ],
 
     ],
